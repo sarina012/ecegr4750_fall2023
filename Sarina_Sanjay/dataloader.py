@@ -7,6 +7,9 @@ import os
 from pathlib import Path
 from torchvision import transforms
 
+# Chatgpt helped a me debug this as the sizing for 
+# some of the variables were off originally when I implemented the models.
+
 # Create CustomDataloader class
 class CustomDataloader:
     """
